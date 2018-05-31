@@ -8,7 +8,9 @@ function reset() {
     start();
 
     function start() {
-        $("#box").html("<h1 id = press>Press Start to Begin</h1>");
+
+        $("#box").html("<h1 id = press>Welcome to PGA Trivia</h1>");
+        $("#box").append("<h1 id = press>Press Start to Begin</h1>");
         $("#box").append("<h1 id = start>START</h1>");
         $("#start").hover(function(){
             $(this).css("background-color", "green");
@@ -21,7 +23,7 @@ function reset() {
                 'volume':0.4,
                 'autoplay':'autoplay'
             }).appendTo("body");
-            setTimeout(question1, 1000);
+            setTimeout(question1, 1500);
         });
     }
     start();
@@ -138,7 +140,7 @@ function reset() {
             }).appendTo("body");
             $("#box").html("<h1 id = correct>Right!!!<h1>")
             $("#box").append("<h1 id = answer>In 1997 Daly Averaged 302.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
-            $('#box').append('<img src="assets/images/daly.jpg">');
+            $('#box').append('<img src="assets/images/Daly.jpg">');
             setTimeout(question5, 6000);
         });
         $("#wrong1").add("#wrong2").add("#wrong3").click(function() {
@@ -150,7 +152,7 @@ function reset() {
             }).appendTo("body");
             $("#box").html("<h1 id = incorrect>Wrong!!!<h1>")
             $("#box").append("<h1 id = answer>In 1997 Daly Averaged 302.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
-            $('#box').append('<img src="assets/images/daly.jpg">');
+            $('#box').append('<img src="assets/images/Daly.jpg">');
             setTimeout(question5, 6000);
         });
     }
@@ -170,7 +172,7 @@ function reset() {
             }).appendTo("body");
             $("#box").html("<h1 id = correct>Right!!!<h1>")
             $("#box").append("<h1 id = answer>In 1945 Byron Nelson Won 18 Times On Tour, Including A Stretch Of 11 Straight.</h1>");
-            $('#box').append('<img src="assets/images/byron.jpg">');
+            $('#box').append('<img src="assets/images/Byron.jpg">');
             setTimeout(question6, 5000);
         });
         $("#wrong1").add("#wrong2").add("#wrong3").click(function() {
@@ -182,7 +184,7 @@ function reset() {
             }).appendTo("body");
             $("#box").html("<h1 id = incorrect>Wrong!!!<h1>")
             $("#box").append("<h1 id = answer>In 1945 Byron Nelson Won 18 Times On Tour, Including A Stretch Of 11 Straight.</h1>");
-            $('#box').append('<img src="assets/images/byron.jpg">');
+            $('#box').append('<img src="assets/images/Byron.jpg">');
             setTimeout(question6, 5000);
         });
     }
@@ -303,6 +305,5 @@ function reset() {
         }
         setTimeout(reset, 10000);
     }
-
 
 }
