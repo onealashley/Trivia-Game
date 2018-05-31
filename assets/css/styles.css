@@ -55,6 +55,7 @@ body {
 #right, #wrong1, #wrong2, #wrong3 {
     width: 34%;
     border: 5px solid #bbb;
+    border-radius: 35px;
     font-size: 35px;
     margin: auto;
     margin-top: 20px;
@@ -62,6 +63,7 @@ body {
 
 #right:hover, #wrong1:hover, #wrong2:hover, #wrong3:hover {
     background-color: #bbb;
+    transform: scale(1.5);
 }
 
 #correct, #incorrect {
