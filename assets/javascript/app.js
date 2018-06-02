@@ -50,6 +50,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>What Golfer Has Won The Most Major Titles</h1>");
         $("#box").append("<h3 id = right>Jack Nicklaus</h3>");
         $("#box").append("<h3 id = wrong1>Tiger Woods</h3>");
@@ -107,6 +108,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>What Golfer Has The Most All TIme PGA Tour Event Wins</h1>");
         $("#box").append("<h3 id = wrong1>Tiger Woods</h3>");
         $("#box").append("<h3 id = right>Sam Snead</h3>");
@@ -163,6 +165,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>Who Was The First Golfer To Win More Than One Million Dollars In A Year?</h1>");
         $("#box").append("<h3 id = wrong1>Tiger Woods</h3>");
         $("#box").append("<h3 id = right>Curtis Strange</h3>");
@@ -219,6 +222,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>John Daly Was the First PGA Tour Player To Average 190+ Yards Off The Tee For A Full Season. What Year Did This Happen? </h1>");
         $("#box").append("<h3 id = wrong1>1994</h3>");
         $("#box").append("<h3 id = wrong2>1996</h3>");
@@ -275,6 +279,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>What Golfer Has Won The Most Tour Events In A Single Season?</h1>");
         $("#box").append("<h3 id = wrong1>Tiger Woods</h3>");
         $("#box").append("<h3 id = wrong3>Rory McIlroy</h3>");
@@ -331,6 +336,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>The Players Championship Is Held At The Same Course Every Season. What Course Is It?</h1>");
         $("#box").append("<h3 id = right>TPC Sawgrass</h3>");
         $("#box").append("<h3 id = wrong1>Bay Hill</h3>");
@@ -387,6 +393,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>Who Was The First Player To Shoot a 59 In A PGA Tour Event?</h1>");
         $("#box").append("<h3 id = right>Al Geiberger</h3>");
         $("#box").append("<h3 id = wrong1>Jim Furyk</h3>");
@@ -443,6 +450,7 @@ function reset() {
                 timeLeft--;
             }
         }
+        $("#count").html("Seconds Remaining: 20");
         $("#box").html("<h1 id = questions>A Man Has Won A Title On The Ladies PGA Tour Once. Who Was He?</h1>");
         $("#box").append("<h3 id = wrong1>Arnold Palmer</h3>");
         $("#box").append("<h3 id = wrong3>Billy Casper</h3>");
