@@ -25,6 +25,7 @@ body {
 }
 
 #box {
+    position: relative;
     margin: auto;
     height: 500px;
     width: 70%;
@@ -39,7 +40,7 @@ body {
 
 #question {
     padding-top: 150px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #name {
@@ -53,7 +54,7 @@ body {
 }
 
 #start {
-    font-size: 75px;
+    font-size: 60px;
     border: 1px solid #bbb;
     width: 30%;
     margin: auto;
@@ -69,7 +70,7 @@ img {
     width: 34%;
     border: 5px solid #bbb;
     border-radius: 35px;
-    font-size: 35px;
+    font-size: 30px;
     margin: auto;
     margin-top: 20px;
 }
@@ -100,4 +101,30 @@ img {
 #gameover {
     color: red;
     font-size: 50px;
+}
+
+@media screen and (max-width: 980px) {
+    
+    #start{
+        font-size: 5.5vw;
+    }
+
+    #right, #wrong1, #wrong2, #wrong3 {
+        font-size: 3.0vw;
+    }
+
+    img {
+        position: absolute;
+        left: 24%;
+        width: 55%;
+        height: 45%;
+    }
+    
+    #count {
+        font-size: 3.5vw;
+    }
+
+    .correct {
+        font-size: 5.5vw;
+    }
 }

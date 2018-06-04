@@ -57,6 +57,7 @@ function reset() {
         $("#box").append("<h3 id = wrong2>Arnold Palmer</h3>");
         $("#box").append("<h3 id = wrong3>Phil Mickelson</h3>");
         $("#right").click(function() { 
+            alert("right")
             correct++;
             $("<audio></audio>").attr({
                 'src':'assets/clapping2.wav',
