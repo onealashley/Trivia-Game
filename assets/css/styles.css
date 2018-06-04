@@ -1,9 +1,6 @@
-/* body {
-    background-image: url(hole1Background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
     font-family: 'Poppins', sans-serif;
-} */
+}
 
 .bg {
     width: 100%;
@@ -18,7 +15,7 @@
     font-size: 38px;
     margin: auto;
     height: 50px;
-    width: 70%;
+    width: 76%;
     margin-top: 15px;
     background-image: url(ball-pattern.jpg);
     background-repeat: no-repeat;
@@ -26,6 +23,7 @@
     text-align: center;
     border-radius: 20px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 #timer {
@@ -35,22 +33,18 @@
 }
 
 #box {
+    padding: 5px;
     position: relative;
     margin: auto;
-    height: 500px;
-    width: 70%;
+    height: 550px;
+    width: 75%;
     background-image: url(./ball-pattern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     cursor: pointer;
     border-radius: 20px;
-
-}
-
-#question {
-    padding-top: 150px;
-    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #name {
@@ -100,7 +94,7 @@ img {
 }
 
 #questions {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .correct {
