@@ -1,12 +1,20 @@
-body {
+/* body {
     background-image: url(hole1Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+} */
+
+.bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 #count {
-    font-size: 30px;
+    font-size: 38px;
     margin: auto;
     height: 50px;
     width: 70%;
@@ -16,6 +24,7 @@ body {
     background-size: cover;
     text-align: center;
     border-radius: 20px;
+    position: relative;
 }
 
 #timer {
@@ -107,6 +116,10 @@ img {
     
     #start{
         font-size: 5.5vw;
+    }
+
+    .bg {
+        height: 100%
     }
 
     #right, #wrong1, #wrong2, #wrong3 {
