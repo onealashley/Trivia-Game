@@ -233,7 +233,7 @@ function reset() {
         }
         $("#count").show();
         $("#count").html("Seconds Remaining: 20");
-        $("#box").html("<h1 id = questions>John Daly Was the First PGA Tour Player To Average 190+ Yards Off The Tee For A Full Season. What Year Did This Happen? </h1>");
+        $("#box").html("<h1 id = questions>John Daly Was the First PGA Tour Player To Average 300+ Yards Off The Tee For A Full Season. What Year Did This Happen? </h1>");
         $("#box").append("<h3 id = wrong1>1994</h3>");
         $("#box").append("<h3 id = wrong2>1996</h3>");
         $("#box").append("<h3 id = right>1997</h3>");
@@ -247,7 +247,7 @@ function reset() {
                 'autoplay':'autoplay'
             }).appendTo("body");
             $("#box").html("<h1 id = correct>Right!!!<h1>")
-            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 192.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
+            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 3 2.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
             $('#box').append('<img src="assets/images/Daly.jpg">');
             clearTimeout(timerId);
             $("#count").hide();
@@ -262,7 +262,7 @@ function reset() {
                 'autoplay':'autoplay'
             }).appendTo("body");
             $("#box").html("<h1 id = incorrect>Wrong!!!<h1>")
-            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 192.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
+            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 302.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
             $('#box').append('<img src="assets/images/Daly.jpg">');
             clearTimeout(timerId);
             $("#count").hide();
