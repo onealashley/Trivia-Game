@@ -247,7 +247,7 @@ function reset() {
                 'autoplay':'autoplay'
             }).appendTo("body");
             $("#box").html("<h1 id = correct>Right!!!<h1>")
-            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 3 2.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
+            $("#box").append("<h1 id = answer>In 1997 Daly Averaged 302.0 Yards Of The Tee Becoming The first Golfer To Do So For An Entire Season. In The 2016-2017 Wrap Around Season, 43 Golfers exceeded That Mark.</h1>");
             $('#box').append('<img src="assets/images/Daly.jpg">');
             clearTimeout(timerId);
             $("#count").hide();
